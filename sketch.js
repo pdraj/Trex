@@ -80,9 +80,7 @@ function draw() {
     if(keyDown("space") && trex.y >= 159) {
       trex.velocityY = -12;
     }
-    if(mousePressedOver(TREX)) {
-      trex.velocityY = -12;
-    }
+   
     trex.velocityY = trex.velocityY + 0.8
   
     if (ground.x < 0){
